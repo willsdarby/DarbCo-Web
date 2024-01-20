@@ -12,36 +12,27 @@ header, section, footer {
     text-align: center;
 }
 
-#link-form, #links-list {
+#links-list {
     margin-top: 20px;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
-    margin: auto;
+ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-label {
-    margin-bottom: 5px;
-    color: #333;
+li {
+    margin-bottom: 20px;
 }
 
-input, button {
-    margin-bottom: 10px;
-    padding: 8px;
+a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
 }
 
-button {
-    cursor: pointer;
-    background-color: #4caf50;
-    color: white;
-    border: none;
-}
-
-button:hover {
-    background-color: #45a049;
+a:hover {
+    color: #2980b9;
 }
 
 footer {
