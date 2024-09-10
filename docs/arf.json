@@ -10,10 +10,17 @@
       "name": "WhatsMyName",
       "type": "url",
       "url": "https://darbco.tech/"
-  }]
-
-  }]
-}
-
-
-   
+      }
+  },
+  {
+    "name": "My Sites",
+    "type": "folder",
+    "children": [
+      {
+      "name": "WhatsMyName",
+      "type": "url",
+      "url": "https://darbco.tech/"
+      }
+  }
+  ]
+} 
